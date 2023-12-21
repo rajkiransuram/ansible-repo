@@ -4,6 +4,6 @@
   - variable.yaml
   tasks:
   - name: variables test
-      ansible.builtin.debug:
-        msg: "Hi I am learning {{Course}}, trainer is {{Trainer}}, duration is {{Duration}}"
+    ansible.builtin.debug:
+      msg: "Hi I am learning {{Course}}, trainer is {{Trainer}}, duration is {{Duration}}"
   

@@ -1,9 +1,9 @@
 - name: variables from files level
   hosts: localhost
   vars_files:
-  - variable.yaml
+    - ansible-repo\variables.yaml
   tasks:
     - name: variables test
-      ansible.builtin.debug:
+      ansible.builtin.debug:  
         msg: "Hi I am learning {{Course}}, trainer is {{Trainer}}, duration is {{Duration}}"
   

@@ -11,6 +11,6 @@
         Course: "DevOps with AWS"
         Trainer: "Sivakumar"
         Duration: "110Hrs"
-        ansible.builtin.debug:
+      ansible.builtin.debug:
           msg: "Hi I am learning {{Course}}, trainer is {{Trainer}}, duration is {{Duration}}"
   

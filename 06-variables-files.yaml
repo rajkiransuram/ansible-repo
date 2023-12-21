@@ -3,7 +3,7 @@
   vars_files:
     C:\Users\User\DEVOPS\ansible-repo\variables.yaml
   tasks:
-    - name:
+    - name: task variable from files
       ansible.builtin.debug:
           msg: "Hi I am learning {{Course}}, trainer is {{Trainer}}, duration is {{Duration}}"
   

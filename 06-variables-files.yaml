@@ -5,5 +5,5 @@
   tasks:
     - name: check variable in vars_files
       ansible.builtin.debug:
-          msg: "Hi I am learning {{Course}}, trainer is {{Trainer}}, duration is {{Duration}}"
+        msg: "Hi I am learning {{Course}}, trainer is {{Trainer}}, duration is {{Duration}}"
   

@@ -10,5 +10,4 @@
     loop: 
     - git
     - mysql
-    - Robot
     - postfix

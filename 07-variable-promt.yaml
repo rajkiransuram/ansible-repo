@@ -1,12 +1,12 @@
-- name: variable from files
+- name: variable from promt
   hosts: localhost
-  vars_promt:
-    - name: USERNAME
-      promt: "Please enter your username: "
-      private: false # user can able to see
-    - name: PASSWORD
-      promt: "Please enter your password: "
-      private: true # user cannot able to see 
+  vars_prompt:
+  - name: USERNAME
+    promt: "Please enter your username: "
+    private: false # user can able to see
+  - name: PASSWORD
+    promt: "Please enter your password: "
+    private: true # user cannot able to see 
   tasks:
   - name: print and check the values
     ansible.builtin.debug:

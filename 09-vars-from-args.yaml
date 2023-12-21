@@ -1,0 +1,6 @@
+- name: variables from CLI level
+  hosts: localhost
+  tasks:
+    - name: variables test CLI
+      ansible.builtin.debug:
+        msg: "Hi {{PERSON}}, Good {{WISHES}}"

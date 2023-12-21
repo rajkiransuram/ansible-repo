@@ -2,10 +2,10 @@
   hosts: localhost
   vars_prompt:
   - name: USERNAME
-    promt: "Please enter your username: "
+    prompt: "Please enter your username: "
     private: false # user can able to see
   - name: PASSWORD
-    promt: "Please enter your password: "
+    prompt: "Please enter your password: "
     private: true # user cannot able to see 
   tasks:
   - name: print and check the values
